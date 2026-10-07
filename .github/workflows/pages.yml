@@ -1,0 +1,57 @@
+name: Deploy ELP static site
+
+# This public repository contains rendered output, never the private project's history.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: elp-public-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.repository == 'Kaelrots/elrixh-prauxhyekth-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out rendered files
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Check publication boundary
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          marker = json.loads(Path('.elp-site.json').read_text())
+          assert marker == {'schemaVersion': 1, 'sourceRepository': 'Kaelrots/elrixh-prauxhyekth-publish-project', 'outputDirectory': 'site'}
+          assert Path('site/index.html').is_file(), 'No rendered home page'
+          forbidden = {'.git', '.env', 'node_modules', 'publish-input', 'generated', 'ELP_EXPORT.json'}
+          for p in Path('site').rglob('*'):
+              assert not p.is_symlink(), f'Symlink: {p}'
+              assert not any(part in forbidden or (part.startswith('.') and part != '.nojekyll') for part in p.parts), f'Private path: {p}'
+              assert p.suffix.lower() not in {'.md', '.mdx', '.map', '.ts', '.tsx', '.bat', '.ps1'}, f'Source file: {p}'
+          PY
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload only rendered files
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+          retention-days: 1
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
