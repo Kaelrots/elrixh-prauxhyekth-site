@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "e9fe3fc1-ca3a-47d9-ad2d-02596cc17600",
-  "revision": "ce12b73b703a",
+  "buildId": "901e5f7c-9b7f-4cae-9c7b-ac20e6a8edd2",
+  "revision": "bae3e8c869cf",
   "counts": {
     "documents": 411,
     "assets": 308,
@@ -12,6 +12,9 @@
     "indexing-allow",
     "korean-metadata",
     "legacy-url-mappings",
+    "reader-document-info",
+    "reader-library",
+    "reading-resume",
     "release-audit",
     "rss",
     "safe-inline-svg",
