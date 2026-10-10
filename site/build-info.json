@@ -1,17 +1,21 @@
 {
   "schemaVersion": 1,
-  "buildId": "cbd51246-6730-4744-8294-52e05d7f1652",
-  "revision": "9c9e6ebda307",
+  "buildId": "ab3da4e4-32d8-42c1-848c-5a9ae19ecc57",
+  "revision": "647df21269e1",
   "counts": {
     "documents": 425,
     "assets": 605,
-    "entities": 0,
+    "entities": 248,
     "aliases": 0
   },
   "features": [
+    "authored-map-gallery",
+    "authored-world-data",
     "indexing-allow",
     "korean-metadata",
     "legacy-url-mappings",
+    "markdown-table-spans",
+    "reader-body-description",
     "reader-document-info",
     "reader-library",
     "reading-resume",
