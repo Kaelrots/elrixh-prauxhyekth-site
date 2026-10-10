@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "d8e881c3-0fa4-4941-84df-d70ff49896fa",
-  "revision": "2fbd8878fd66",
+  "buildId": "b19445f6-5e5c-4d2c-ba52-e4aeab4cafcc",
+  "revision": "3ef6a39bef9d",
   "counts": {
     "documents": 425,
     "assets": 605,
@@ -9,19 +9,27 @@
     "aliases": 0
   },
   "features": [
+    "accessible-folder-controls",
     "article-image-previews",
     "atlas-colour-selection",
     "atlas-hierarchy-navigation",
+    "atlas-image-tiles",
     "atlas-related-records",
+    "authored-day-ranges",
     "authored-map-gallery",
     "authored-world-data",
     "canonical-period-guides",
+    "chronicle-viewport",
     "deferred-navigation",
+    "derived-image-cache",
     "entity-comparison",
+    "entity-source-coverage",
     "indexing-allow",
     "korean-metadata",
     "legacy-url-mappings",
     "markdown-table-spans",
+    "progressive-search",
+    "reader-backup-v2",
     "reader-body-description",
     "reader-document-changes",
     "reader-document-info",
@@ -38,37 +46,38 @@
     "selected-world-data",
     "social-image",
     "spa-navigation",
+    "stable-atlas-navigation",
     "visual-chronicle",
     "world-data-proof",
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-10T13:49:11.707Z",
+  "builtAt": "2026-10-10T16:46:54.665Z",
   "worldData": {
-    "entities.json": "b3223617a948d038afe117fe2f72868dff0e505bae940c26f7856c041b04ae96",
+    "entities.json": "12ad711275e4745ed0b6b74fea469dd1287d4cfd661bc0e63bb89101186cbf74",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
-    "chronicle.json": "081117106f895bd0684914e43df77975098ee7fbd420cd3fb92f2c76ec661dde",
+    "chronicle.json": "56ba5d8c2f38c2458660e2eff42e85300c7384c08865749bd6c8de4fa96ea242",
     "graphs.json": "3e6f4d4ec05aecdc711b76b13e6d6a3dbb47d698c39abff4e402731fa7044f61"
   },
   "searchData": {
     "all": {
       "documents": 425,
-      "entrySha256": "1f9c67de277c5008df96e6d9cd3660c37e0f6d2f01e5903e6e5737c37380bb01"
+      "entrySha256": "aa90ec283df0d1e6da7d3d9ed311e3bf34ac66f520c91e84ed38b265c9309aeb"
     },
     "title": {
       "documents": 425,
-      "entrySha256": "269e836161cb14fee2494515b2d78059f2618c5ddbb4fde556b33a9dd8b41652"
+      "entrySha256": "d9ad2b480879049dc54ceaa81f047c251a8f53a16a5dd9a1022f210744613f17"
     },
     "body": {
       "documents": 411,
-      "entrySha256": "2b7bd649a6c91407befeb46e5945e91e2f604c0f8d04c30a8807c8c3bf887a5e"
+      "entrySha256": "95b4a3db6b2492184bb1081b9dd6c8b672c6de2f7633c8779728fd37a208fb4d"
     }
   },
   "featurePages": {
-    "portal": "308bc07c708e82d481d88f8d084cb9d4d8889cb959cac2fd50eef3de3e7cf8ef",
-    "entities": "b242678db5534e183782ae82c28f77f1182e17fcc01a00fab2fe889d81cebde8",
-    "atlas": "876d462d954b2379a6dae56f87c1cd7c704c54cfbc77d576231d8f5a5a627b11",
-    "chronicle": "76c80c9c8d4a27f4acb4e3dbd1e55c6f01cc083c9c37e4073ea7a859bcfc3782",
-    "graphs": "3543ef31c24d06ad3f79f5dd6a0ef1cc886c5f15acb74e407de3815759d9e57c"
+    "portal": "5807eb2968976d5a3195256137b0d7c54378fd5c7c41037846340899e19e63af",
+    "entities": "2b82b4fdd2fcbd2fc3c6a1bc2dd5f778d42b2024e5c5ddc8a5d69204385b9d4e",
+    "atlas": "4e66ebfb207d431700b90839663f5bb7763a6b0d1815202175f7020bd7be719d",
+    "chronicle": "8a0cfda1aca9a87fb7a2b19822216fbd49bf4a8a7f4edd8f2e35041a4ef6755e",
+    "graphs": "33f857b54dc78731aef3d6be561f255acb21916bfa8e3a9ba9960576a2b010c4"
   }
 }
