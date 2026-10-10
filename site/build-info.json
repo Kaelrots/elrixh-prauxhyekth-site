@@ -1,28 +1,74 @@
 {
   "schemaVersion": 1,
-  "buildId": "ab3da4e4-32d8-42c1-848c-5a9ae19ecc57",
-  "revision": "647df21269e1",
+  "buildId": "d8e881c3-0fa4-4941-84df-d70ff49896fa",
+  "revision": "2fbd8878fd66",
   "counts": {
     "documents": 425,
     "assets": 605,
-    "entities": 248,
+    "entities": 250,
     "aliases": 0
   },
   "features": [
+    "article-image-previews",
+    "atlas-colour-selection",
+    "atlas-hierarchy-navigation",
+    "atlas-related-records",
     "authored-map-gallery",
     "authored-world-data",
+    "canonical-period-guides",
+    "deferred-navigation",
+    "entity-comparison",
     "indexing-allow",
     "korean-metadata",
     "legacy-url-mappings",
     "markdown-table-spans",
     "reader-body-description",
+    "reader-document-changes",
     "reader-document-info",
     "reader-library",
+    "reader-library-transfer",
     "reading-resume",
+    "related-world-records",
+    "relation-source-evidence",
     "release-audit",
+    "release-status",
     "rss",
     "safe-inline-svg",
+    "saved-search-conditions",
+    "selected-world-data",
     "social-image",
-    "spa-navigation"
-  ]
+    "spa-navigation",
+    "visual-chronicle",
+    "world-data-proof",
+    "world-navigation-v2",
+    "world-search-facets"
+  ],
+  "builtAt": "2026-10-10T13:49:11.707Z",
+  "worldData": {
+    "entities.json": "b3223617a948d038afe117fe2f72868dff0e505bae940c26f7856c041b04ae96",
+    "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
+    "chronicle.json": "081117106f895bd0684914e43df77975098ee7fbd420cd3fb92f2c76ec661dde",
+    "graphs.json": "3e6f4d4ec05aecdc711b76b13e6d6a3dbb47d698c39abff4e402731fa7044f61"
+  },
+  "searchData": {
+    "all": {
+      "documents": 425,
+      "entrySha256": "1f9c67de277c5008df96e6d9cd3660c37e0f6d2f01e5903e6e5737c37380bb01"
+    },
+    "title": {
+      "documents": 425,
+      "entrySha256": "269e836161cb14fee2494515b2d78059f2618c5ddbb4fde556b33a9dd8b41652"
+    },
+    "body": {
+      "documents": 411,
+      "entrySha256": "2b7bd649a6c91407befeb46e5945e91e2f604c0f8d04c30a8807c8c3bf887a5e"
+    }
+  },
+  "featurePages": {
+    "portal": "308bc07c708e82d481d88f8d084cb9d4d8889cb959cac2fd50eef3de3e7cf8ef",
+    "entities": "b242678db5534e183782ae82c28f77f1182e17fcc01a00fab2fe889d81cebde8",
+    "atlas": "876d462d954b2379a6dae56f87c1cd7c704c54cfbc77d576231d8f5a5a627b11",
+    "chronicle": "76c80c9c8d4a27f4acb4e3dbd1e55c6f01cc083c9c37e4073ea7a859bcfc3782",
+    "graphs": "3543ef31c24d06ad3f79f5dd6a0ef1cc886c5f15acb74e407de3815759d9e57c"
+  }
 }
