@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "025e8429-5ee5-4e10-9d3c-93f96ef2dd62",
-  "revision": "fe92b26664be",
+  "buildId": "558aa8b5-8094-40d7-85cf-331f6b0e7e8d",
+  "revision": "035ce5acbe78",
   "counts": {
     "documents": 425,
     "assets": 605,
@@ -18,17 +18,22 @@
     "authored-day-ranges",
     "authored-map-gallery",
     "authored-world-data",
+    "bases-viewer",
     "canonical-period-guides",
+    "canvas-viewer",
     "chronicle-viewport",
     "community-publication-manifest",
     "deferred-navigation",
     "derived-image-cache",
+    "document-folding",
+    "document-mention-context",
     "entity-comparison",
     "entity-source-coverage",
     "indexing-allow",
     "korean-metadata",
     "legacy-url-mappings",
     "markdown-table-spans",
+    "obsidian-query-embeds",
     "private-world-data-workbench",
     "progressive-search",
     "reader-backup-v2",
@@ -37,6 +42,7 @@
     "reader-document-info",
     "reader-library",
     "reader-library-transfer",
+    "reader-workspace",
     "reading-resume",
     "related-world-records",
     "relation-source-evidence",
@@ -54,7 +60,7 @@
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-10T18:07:49.125Z",
+  "builtAt": "2026-10-11T13:39:35.976Z",
   "worldData": {
     "entities.json": "12ad711275e4745ed0b6b74fea469dd1287d4cfd661bc0e63bb89101186cbf74",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
@@ -64,22 +70,22 @@
   "searchData": {
     "all": {
       "documents": 425,
-      "entrySha256": "5c0e796b05f6eca7d715478857fcfd3d2c7c05a89ec74575019a179e63cbf8ef"
+      "entrySha256": "7600000e1c46d525c6680f4f3d927741c5ee2c565b2c6134333186a6950c37f2"
     },
     "title": {
       "documents": 425,
-      "entrySha256": "df02f039c88caa011ad45381b12e1268776dc32c1aa526c7a1c6f15c84fc1abd"
+      "entrySha256": "9c54ca8ede7b360bb51d86dc26734b5264eba579adb016c9f348e610e9f4503b"
     },
     "body": {
       "documents": 411,
-      "entrySha256": "26050f53e45064475ae92a8434249553ae249a3e5d0884e83f3cf6dcce303dea"
+      "entrySha256": "c1104d523232d216ba1ec9258de3823a109a6cca3dc2f6c2ca1edb12ae4ee542"
     }
   },
   "featurePages": {
-    "portal": "7655f0bf24f0bed27415458edae7e67ba4e25a9dae4291d331c22cf7318dc0ae",
-    "entities": "84e44c2347bc38dbe8964e56105e82e8900198cdc4a0d411ecb11387c60af4b1",
-    "atlas": "ce7ce92b50533352a29828cd81bb94414d00e9fe5f9383511eb648f891f0adc2",
-    "chronicle": "4f779503f5bec4ef5e90c739fb85471c7a8f37c3d6c00b4d61253c726c4d5d5d",
-    "graphs": "1b5fc809223a738c9b52305c89108eae3be32366e1f7779e4fda46ae891e02c6"
+    "portal": "e4dc9fd6588584da972335e2a4bb92485d81d3c7250746dfcea662fbe61f7790",
+    "entities": "66a3d323eb3ea668658d97d11baec45492bddc1a3e3af3e57a3d0b4abfb85aa8",
+    "atlas": "55df802ae4e288310b0ed9222fe7e93b6a14a4b815d9265d9b6ddcd8babffe16",
+    "chronicle": "2b5ed7b7620bb5d1c3ad4b00eeefa78424452cd636afb28269beec25599d2822",
+    "graphs": "4821d679c1067881f5bdac93b9e66217ec31c12f1ff31f2463bb3012dbe04dc5"
   }
 }
