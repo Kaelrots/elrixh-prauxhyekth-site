@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "c2201481-4be2-4bb3-bc20-45d956774300",
-  "revision": "5734ddaaac2a",
+  "buildId": "c1f10591-18d9-4948-a459-0bb4f07120fc",
+  "revision": "b60164d548c1",
   "counts": {
     "documents": 425,
     "assets": 605,
@@ -56,12 +56,13 @@
     "social-image",
     "spa-navigation",
     "stable-atlas-navigation",
+    "stellar-portal-v1",
     "visual-chronicle",
     "world-data-proof",
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-12T03:10:33.472Z",
+  "builtAt": "2026-10-12T12:54:03.607Z",
   "worldData": {
     "entities.json": "12ad711275e4745ed0b6b74fea469dd1287d4cfd661bc0e63bb89101186cbf74",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
@@ -71,22 +72,22 @@
   "searchData": {
     "all": {
       "documents": 425,
-      "entrySha256": "7dafc315708759beae8ee920325d4cf21ab683c2f2f75f41f6f424f2ac292ca1"
+      "entrySha256": "a94da8947d9c76bdcd8fffda2819a692ef1987de9e4df08d0ee1e8158b7a5fa7"
     },
     "title": {
       "documents": 425,
-      "entrySha256": "abeaaec4fd504da0cfc342bc97c93967b7d33fa2a552dd2bae8868c72733d536"
+      "entrySha256": "cb7ee9253699113c8a720aaeee1e504cc1d881b3e2eebb134a3e104fd5fdefd4"
     },
     "body": {
       "documents": 411,
-      "entrySha256": "25bc7ca95fb984dfbfc9232466572fb6a52e5b98a65d871e7721649bf3018657"
+      "entrySha256": "1b00b7e922b1427e6f93473b5d772adafd48b7b5b029821af576bf21c62b5827"
     }
   },
   "featurePages": {
-    "portal": "876bba4cf2189f06867ab0510de0b5c5083ceb2270c80eb7aa5d4effb182aff9",
-    "entities": "6e9d1698660a0088ab12a09152ea886c9b6c7092eadf5c31e505f39bd37c2979",
-    "atlas": "db5a22508b334e832e7567c99df169a5ff1d933fa8fe05467c11ba012ea63f1c",
-    "chronicle": "954f8f3362299759e1d0b5fb2f1fb0bbd00237527815e031c1f9d23c9de822d9",
-    "graphs": "b929bace15bb4f725ec521e302cc7c94a67b3a2e72da6964742c781123212b1a"
+    "portal": "a1d83eb8ebabaa7e73a9518f950bb9cef9bb6c776ae4021a2eb616c5ede11f24",
+    "entities": "b826d5762a7243672df7e2c6b7a34aacd6116842994ada8cd95ada4aa144f1a3",
+    "atlas": "3537d1c9f35b5ef4e4d485ec0f7fd1c967db52b6f5b7a89222d72e3be5dd2099",
+    "chronicle": "ebfdb4a8cea64b25ed4c8b166c40ef23ace2d1aa8206a9226531628e83f3d1a1",
+    "graphs": "d269e2635f3a36418d8072eaa5d893836860be47257ba67be3ef7882b5831c76"
   }
 }
