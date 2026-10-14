@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "buildId": "1c2d82c9-9a1e-4443-9731-41b8ee4ca4e0",
-  "revision": "a40cf09a8f5b",
+  "revision": "bea1d82a80e4",
   "counts": {
     "documents": 425,
     "assets": 605,
@@ -72,22 +72,22 @@
   "searchData": {
     "all": {
       "documents": 425,
-      "entrySha256": "b3f2980bd11af4628fbd0a305ccc1b97c617f5e3d2eab1bac3db4a30937eb512"
+      "entrySha256": "8178b4bad99e44e82786d6dd3cd1ab353d297a099751f6077ac3b4e40a871b74"
     },
     "title": {
       "documents": 425,
-      "entrySha256": "1a8cfd8404475c5a9717e62c17ac645471d5285e9067b36c61366a5974bea004"
+      "entrySha256": "6ceb04da08f8d4a528a02e10aaa853e40a390219c2326f29e47a704d8bc67a22"
     },
     "body": {
       "documents": 411,
-      "entrySha256": "01271e7f5433a5e04a0783d2325007ec6960b2281ea594adaa69ed723335eacc"
+      "entrySha256": "51ccbec0d7899c3ab7bcb45d30e2e38f1fcb42a0aabdfe28b7d5b8f206aec0c1"
     }
   },
   "featurePages": {
-    "portal": "61effb40fd55a38d6bebf82fabbe458b3a373cc0695a1647abcfc7fe1ebdd1ca",
-    "entities": "32067a0e64386cea95483f0a5167fb658c31b54246bc17664e9234e775567ed9",
-    "atlas": "d14c068095a74901a277d280f9065905a77908bb1b63679f9fd39abe8c157611",
-    "chronicle": "115d9b7182942be96446590a5e61fb50f3b90500a35f31861da0527077e6d219",
-    "graphs": "04e6513e12dd8182cc8ae9a9a204cb0da915c4dbf13e2df55e0862d2eeaaff8c"
+    "portal": "061b4c87fe0c923bc43854c0384a90e1a29317606427573d1cbd5d3dd3c05518",
+    "entities": "0331f2ef4e07256929fbe123ff9cf7fde683861b92aa227f7cd0825fb77e2b1e",
+    "atlas": "bfc5653a88f1ddadd9c90a75d00b453289445987f38142092cb36bbd1fcb5b26",
+    "chronicle": "1d225dff8f54f25e909041b2e0ba276d84063a9b3370557c1691243f687cd96d",
+    "graphs": "e7296364f2427df9cc5abd63d4d51a3d2db7ab3ef262ead204539ccc53cbbd7d"
   }
 }
