@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "buildId": "848080f5-794e-48c6-9266-5b289f423e64",
-  "revision": "bd03d7aa786c",
+  "buildId": "d4250526-3147-4770-b4f6-9c6a72c3629f",
+  "revision": "46870bf5ae4f",
   "counts": {
-    "documents": 425,
-    "assets": 605,
+    "documents": 391,
+    "assets": 604,
     "entities": 250,
     "aliases": 0
   },
@@ -62,32 +62,32 @@
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-16T01:58:02.218Z",
+  "builtAt": "2026-10-16T04:14:45.155Z",
   "worldData": {
     "entities.json": "12ad711275e4745ed0b6b74fea469dd1287d4cfd661bc0e63bb89101186cbf74",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
     "chronicle.json": "56ba5d8c2f38c2458660e2eff42e85300c7384c08865749bd6c8de4fa96ea242",
-    "graphs.json": "3e6f4d4ec05aecdc711b76b13e6d6a3dbb47d698c39abff4e402731fa7044f61"
+    "graphs.json": "cef813b753418ed8ff3b04167f66986d6de159ccc2f628c52d052b6058fc53b8"
   },
   "searchData": {
     "all": {
-      "documents": 425,
-      "entrySha256": "cb3646275fba27166ad7157288891b8069baa5ce0b6f9aacd9c2115cc070e9d8"
+      "documents": 391,
+      "entrySha256": "715eff8a4a4d019d09cf8ba5f62f9ca6c8a599e05c239df2d7b93115adcfeea5"
     },
     "title": {
-      "documents": 425,
-      "entrySha256": "40f23df520a5729193b85bcac95bf5a004ec8eaf109dfeca3048d5bae79195d0"
+      "documents": 391,
+      "entrySha256": "d1c0648375b40ff6102e610082455609d1b65058c36071329390bff59f7fc709"
     },
     "body": {
-      "documents": 411,
-      "entrySha256": "47766e93163365dc203e13fb8419dc952a26a5a128baf4db43fc9efee888cb6b"
+      "documents": 379,
+      "entrySha256": "4d4d553fff09106c1a4f78c2b0cf666a341929d46ad10481fb8899be21f936f8"
     }
   },
   "featurePages": {
-    "portal": "89e4bbf8f3c811d295124af62bca1a36eb7a45011131348193b41a05b38c7c04",
-    "entities": "380a80b6d732ed1ecb9425fa882deb812255be0df46575723f0ad3a9a46cc06a",
-    "atlas": "2554ad2bb7b08044b7d6cdea2e420df2a2cc7a1aa72b3e2b9f931121bbf220f3",
-    "chronicle": "6b98a0a6fe7957c1bacef643d030341eff7ad3e0447167102c281f3f5ad0bc8d",
-    "graphs": "29d911f5ef3026ef0c78325b258d1733bb3b139624896eb05f58be629d062ed7"
+    "portal": "4eb12dd50b74a696a3e6081a02bcee83cc970f6993d3ad9186ed9a0d9552fc41",
+    "entities": "ae48d4d546d418097006baba1492b8f6a893eff5a167168f5e3b9a255d621d2a",
+    "atlas": "16ca788388ddfaa5d41cd9d2d6d8bc4352df0139187918220976660308af931a",
+    "chronicle": "fe88db10cbb11c8972719ca96e744e9a5ed53946e9e67e10afb425a73e226c9e",
+    "graphs": "2f774d9509af52c151253c14a3ce3d41c45362cc9b37b51d99aa1ba0a9a05082"
   }
 }
