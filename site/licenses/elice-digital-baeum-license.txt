@@ -1,0 +1,15 @@
+Elice Digital Baeum (엘리스 디지털배움체)
+
+Copyright (c) 2016-2021 elice. All rights reserved.
+
+Source: https://elice.io/resources/brand
+License document published by Elice (PDF):
+https://font.elice.io/static/downloads/EliceDigitalBaeum_License.pdf
+
+Summary of Elice's published terms (see the PDF above for the authoritative text):
+- The typeface follows the Open Font License as stated by Elice (the PDF does not name a version).
+- Free for individuals and companies, commercial and non-commercial use.
+- Selling the font files (OTF/TTF) and redistributing modified or altered versions are prohibited.
+
+The font files in public/fonts/elice-digital-baeum/ are Elice's original OTF files, unmodified.
+Contact: contact@elice.io
