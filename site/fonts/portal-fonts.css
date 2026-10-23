@@ -1,8 +1,15 @@
-/* Portal typefaces, self-hosted. Licenses: licenses/pretendard-OFL.txt, licenses/elice-digital-baeum-license.txt
+/* Portal typefaces, self-hosted. Licenses: licenses/pretendard-OFL.txt, licenses/elice-digital-baeum-license.txt, licenses/gowun-dodum-OFL.txt
    Pretendard Variable 1.3.9 dynamic subset (orioncactus/pretendard @ 7aeb069).
    Pretendard's unicode-range splits keep downloads to the glyphs a page actually uses.
    Elice Digital Baeum Regular/Bold (OTF, unmodified original files from elice.io/resources/brand).
    Terms: licenses/elice-digital-baeum-license.txt. Used for all headings. */
+@font-face {
+ font-family: 'Gowun Dodum';
+ font-style: normal;
+ font-display: swap;
+ font-weight: 400;
+ src: url(./gowun-dodum/GowunDodum-Regular.woff2) format('woff2');
+}
 @font-face {
  font-family: 'Elice Digital Baeum';
  font-style: normal;

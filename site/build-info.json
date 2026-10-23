@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "2bc1f8d0-3d88-48a4-b70a-309376671fb3",
-  "revision": "082f024b1af1",
+  "buildId": "78ae21fc-680d-4372-ae6d-a6e36c9fa9a0",
+  "revision": "f0af0931a0b4",
   "counts": {
     "documents": 426,
     "assets": 981,
@@ -62,7 +62,7 @@
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-23T08:34:48.997Z",
+  "builtAt": "2026-10-23T14:54:05.249Z",
   "worldData": {
     "entities.json": "28f8559507943ca7b744a522c688e2ee318994d211965e1641a0bab5ce9e6d59",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
@@ -72,22 +72,22 @@
   "searchData": {
     "all": {
       "documents": 426,
-      "entrySha256": "7945bb44f59c1d90f1052e5ffc7e6a24e88e54f6f4a4320d3c98c0121bc1940c"
+      "entrySha256": "a5aa9607a29a85487b180e9fe3ea4cb4123153ad237cd77abcedb2fb9581a54f"
     },
     "title": {
       "documents": 426,
-      "entrySha256": "9094293c6a2290f811c3aca347e2f2180b2059a5a88453dcaca2934960745f06"
+      "entrySha256": "52dc4652ec9f7abf0d7ffbf032db66b8c4311c97f9986c050ba7bbf2a3847140"
     },
     "body": {
       "documents": 414,
-      "entrySha256": "20960226382459b1c9de7ec475909201879298b5e390be66ab65b3ed31adbb1a"
+      "entrySha256": "ea5f816ec05c3623159d972b9032dd3182b9dddf9689e9d998b2341b711be508"
     }
   },
   "featurePages": {
-    "portal": "c60292d5d12a9dd79bc4ecfb0e306e80a58f978afb644e67c1346cd478c4528a",
-    "entities": "b36343f675265ec67cc8fd3c5e798d803df7c0193a51bf10cded42c867cbeeef",
-    "atlas": "7bddf330b3419927e33557066ae37d43d48e67a78990bc1d7b9b7395eaf9f203",
-    "chronicle": "1c5ada7124935f3863dc843f2cc497e6deed1e8506d2d5df925442f0671c62b7",
-    "graphs": "9ba7ea73739f813f87e684d69a380b24a9e51de8f0ef2b58fa2d84c541776809"
+    "portal": "383f17b3438049c6bae63183c612c01e3a9206e08b9a5944fb7b357431ae9beb",
+    "entities": "1d16147adc5e5815c5cf2555487eb3615cf236955b265c00f82b2b38769a50ce",
+    "atlas": "ea3d94d01142a45dd7f5fc69fa7097c32a843a4459285a193cc50e25ac5e672e",
+    "chronicle": "fd6e6d9401fc3e87a0777f2a315335a82c43305594f48a4a7350e2700e77867c",
+    "graphs": "5188bbacc26a2caa66cc5615a6f214c2345c758a79acc23a84809ee2c18359ad"
   }
 }
