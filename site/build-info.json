@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "buildId": "4da2b910-c28d-4214-b16a-e0c6c48e1e78",
-  "revision": "ce1d16b5e411",
+  "buildId": "728e0695-efbe-4363-9781-03f73ff4b063",
+  "revision": "5e435e32a3b2",
   "counts": {
     "documents": 655,
     "assets": 977,
@@ -62,7 +62,7 @@
     "world-navigation-v2",
     "world-search-facets"
   ],
-  "builtAt": "2026-10-31T07:45:08.939Z",
+  "builtAt": "2026-11-02T06:31:18.531Z",
   "worldData": {
     "entities.json": "9cfe5bc05f3e3473d8caaaa8d540ab193701123fa1fdcf1e7ed2cf254a23d581",
     "atlas.json": "10940a01eaa008f5db251e9d1965c4d0e3a35688a8cf8ed30a12a3b279fe4bd9",
@@ -72,22 +72,22 @@
   "searchData": {
     "all": {
       "documents": 655,
-      "entrySha256": "ded75b516d6d5446a696c63241c21f08e06610ce01d0b0faf8e55f0d72f7d83f"
+      "entrySha256": "d9a057f88f4a8374c8eb63641b9bdda729ec3e6187892a315118bfc99fef15b4"
     },
     "title": {
       "documents": 655,
-      "entrySha256": "721809a601305219b6cd88c2282e010bcd9358d61f21d5485e3fc4ba33e1001d"
+      "entrySha256": "9a39bd69895b0a87b0ff29c6fd332d269da40747f5896312c132d6380c858254"
     },
     "body": {
-      "documents": 643,
-      "entrySha256": "02ab42cf8df1ac1c566612f818b3867fff364ae39dbbaeb2407a491e53abb450"
+      "documents": 646,
+      "entrySha256": "a44984a78bee244d33308dbdcdc6188996163542458757b67c7eec513816eb2e"
     }
   },
   "featurePages": {
-    "portal": "82e54146d15705462a5fa2f0f6a9c27753378e94e8b6ed6e5edba6fea6ea988a",
-    "entities": "312ace8d1a7fdd65eb5c2a210833d922d47ff32308e6c7ef0b4e02352fd4c570",
-    "atlas": "70085da4ecd16eb16d77769de82ad2dda90e174da095f7ca6b4272007a0223d3",
-    "chronicle": "aec77f7328a69c155c185caea8fb2f22121eac92df98ac363a63f7a845498765",
-    "graphs": "55477d98c98aaa22e1cd66b34d9f3406703934d421c6b1e441ae7b5f6af4fcef"
+    "portal": "ad263586e7e81d336a377d599ff6a9d1c9e9b927e0dc808179f3de9f4b7c8a5d",
+    "entities": "c3d11ed9c27dbe4521108bbc95849c8634768d6472515ea3b36baada9ad74df0",
+    "atlas": "e7626dde35d72fbdef6c6a5e1d2b1ef0b8ca86162a9b56ed27c69b8cae10dc32",
+    "chronicle": "9a3c311d6c4f00fc665a139002087296b03524a5a263739390f5707a582974cb",
+    "graphs": "b1e23d34d20e3d9af0f1043e3550420b37b8a239dd14d4e54ccd8675cc93691c"
   }
 }
