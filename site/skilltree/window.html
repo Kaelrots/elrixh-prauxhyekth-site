@@ -123,6 +123,11 @@ const TY={RECOMMENDED_LEARNING:['권장 학습','#e9c77a'],COMBO:['운용 연계
 const show={RECOMMENDED_LEARNING:true,COMBO:false,CONCEPTUAL_DERIVATION:false,VARIANT_OF:true,MEMBER:true};
 
 let D,by,GC,sel;
+// The archive owns navigation when this page is open in its named viewer.
+// A standalone viewer keeps its own URL and history.
+const hostFrame = window.frameElement?.closest('iframe[data-skilltree-host]');
+const addressWindow = hostFrame ? parent : window;
+const cardsByUid = new Map(ALL.flatMap(d => d.nodes.map(n => [n.uid, {name:d.name, id:n.id}])));
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.append(e);return e};
 const polar=(r,deg)=>[CX+r*Math.cos(deg*Math.PI/180),CY+r*Math.sin(deg*Math.PI/180)];
@@ -303,11 +308,21 @@ function selectNode(id, remember=true){
  if(remember)saveLocation();
  render();
 }
-function saveLocation(){
- const url=new URL(location.href);
- if(url.searchParams.get('d')===D.name && url.searchParams.get('sel')===sel)return;
- url.searchParams.set('d',D.name);url.searchParams.set('sel',sel);
- history.pushState(null,'',url);
+function saveLocation(remember=true){
+ const uid=by[sel].uid;
+ const url=new URL(addressWindow.location.href);
+ url.searchParams.delete('d');
+ url.searchParams.delete('sel');
+ url.searchParams.set('uid',uid);
+ if(url.href!==addressWindow.location.href){
+  const h=addressWindow.history;
+  if(remember)h.pushState(h.state,'',url);
+  else h.replaceState(h.state,'',url);
+ }
+ if(hostFrame){
+  hostFrame.dataset.uid=uid;
+  hostFrame.dispatchEvent(new Event('skilltree-selection',{bubbles:true}));
+ }
 }
 function bindControl(g,label,activate){
  g.setAttribute('role','button');g.setAttribute('tabindex','0');g.setAttribute('aria-label',label);
@@ -324,10 +339,10 @@ function render(){
  document.getElementById('node-picker').value=sel;
 }
 function open_(name,id,remember=true){
- load(name);sel=by[id]?id:D.sel;
+ load(name);sel=Object.hasOwn(by,id)?id:D.sel;
  const picker=document.getElementById('discipline-picker');picker.value=D.name;
  document.getElementById('node-picker').replaceChildren(...D.nodes.map(n=>new Option(n.name,n.id)));
- if(remember)saveLocation();
+ saveLocation(remember);
  drawBg();drawTabs();drawLeft();render();
 }
 function fit(){
@@ -339,7 +354,13 @@ function fit(){
 const picker=document.getElementById('discipline-picker');
 picker.replaceChildren(...ALL.map(d=>new Option(d.name,d.name)));picker.onchange=()=>open_(picker.value);
 document.getElementById('node-picker').onchange=e=>selectNode(e.target.value);
-function restore(){const q=new URLSearchParams(location.search);open_(q.get('d')||'환영검',q.get('sel'),false);}
+function restore(){
+ const query=new URLSearchParams(addressWindow.location.search);
+ const card=cardsByUid.get(query.get('uid'));
+ open_(card?.name ?? query.get('d'),card?.id ?? query.get('sel'),false);
+}
+addEventListener('skilltree-restore',restore);
+addEventListener('skilltree-discipline',event=>open_(event.detail));
 addEventListener('popstate',restore);addEventListener('resize',fit);fit();restore();
 </script>
 </body>
