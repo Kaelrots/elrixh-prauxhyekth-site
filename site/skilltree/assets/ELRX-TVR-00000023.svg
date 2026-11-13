@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">공개 판정형</title>
+  <desc id="desc">반으로 나뉜 가면과 그 사이를 가르는 선 · 갈라진 가면에서 둘레로 퍼지는 공개 판정광</desc>
+  <metadata>ELRX-TVR-00000023 | 심판 | 기초 | ELRX-TEC-00000203 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <path d="M-26-25Q-13-19-3-21V29Q-20 21-25 3Z M3-21Q14-19 25-25L24 3Q19 19 3 29Z" fill="#E8B04A" fill-opacity=".20"/>
+        <path d="M-20-7-10-4 M10-5 19-9 M-42 28 38-28"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#E8B04A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#E8B04A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M-22-21-32-30 M-26-7-38-10 M-26 5-36 11 M20-25 27-34 M25-7 37-15 M23 7 34 13"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

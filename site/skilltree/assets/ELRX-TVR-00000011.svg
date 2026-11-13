@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">응답 합창형</title>
+  <desc id="desc">노래 곡선이 아래로 떨어지려는 선을 받쳐 드는 모습 · 노래 곡선이 다른 목소리로 이어받아지는 응답 곡선</desc>
+  <metadata>ELRX-TVR-00000011 | 낭만 | 중급 | ELRX-TEC-00000085 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-21 8) rotate(0) scale(0.75 0.75)" stroke-width="2.89"><path d="M-12 10Q-26 10-25 20Q-20 28-11 22Q-8 20-8 14V-14L15-22V3Q2 2 2 12Q4 20 14 17Q20 15 20 7V-29L-12-21Z" fill="#FFB46B" fill-opacity=".20"/></g>
+        <path d="M-31 25Q4 40 31-4 M-1-27 9-3 20 3 M-1 6 9-3 21-4"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#FFB46B" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FFB46B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(25 -18) rotate(0) scale(0.43 0.43)" stroke-width="3.81"><path d="M-27 0Q-14-8-7-12Q-3-14 0-9Q5-15 10-10L26 0Q8 23-11 14Z" fill="#E9A7FF" fill-opacity=".20"/><path d="M-21 0Q-4 4 21 0"/></g>
+        <path d="M13-10Q3-15 3-4Q0 12-13 11 M17-5Q11-4 11 2"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

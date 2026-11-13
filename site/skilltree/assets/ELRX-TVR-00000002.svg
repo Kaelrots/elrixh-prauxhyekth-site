@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">분산 동기화 군집형</title>
+  <desc id="desc">작은 마력 검 여럿이 모여 하나의 거대한 검 윤곽을 이루는 모습 · 군집 검체끼리 잇는 짧은 피드백 고리</desc>
+  <metadata>ELRX-TVR-00000002 | 환영검 | 고등 | ELRX-TEC-00000011 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-17 1) rotate(-14) scale(0.64 0.64)" stroke-width="3.13"><path d="M0-34 5-22 4 8 0 13-4 8-5-22Z" fill="#62E4FF" fill-opacity=".20"/><path d="M0-25V7 M-12 7-7 11 0 14 7 11 12 7"/><path d="M-2.8 15V23L0 28 2.8 23V15" fill="#62E4FF" fill-opacity=".20"/></g>
+        <g transform="translate(17 1) rotate(14) scale(0.64 0.64)" stroke-width="3.13"><path d="M0-34 5-22 4 8 0 13-4 8-5-22Z" fill="#62E4FF" fill-opacity=".20"/><path d="M0-25V7 M-12 7-7 11 0 14 7 11 12 7"/><path d="M-2.8 15V23L0 28 2.8 23V15" fill="#62E4FF" fill-opacity=".20"/></g>
+        <g transform="translate(0 -11) rotate(0) scale(0.82 0.82)" stroke-width="2.76"><path d="M0-34 5-22 4 8 0 13-4 8-5-22Z" fill="#62E4FF" fill-opacity=".20"/><path d="M0-25V7 M-12 7-7 11 0 14 7 11 12 7"/><path d="M-2.8 15V23L0 28 2.8 23V15" fill="#62E4FF" fill-opacity=".20"/></g>
+        <path d="M0-48 29-12 25 10 14 20 7 24 0 45-7 24-14 20-25 10-29-12Z"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#62E4FF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#62E4FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M128 49v5" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(300 128 128) translate(0 0)"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M-25 4Q-17-3-9 3 M-9 7Q-16 13-22 7 M7 3Q14-6 21 0 M23 5Q17 11 11 8"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

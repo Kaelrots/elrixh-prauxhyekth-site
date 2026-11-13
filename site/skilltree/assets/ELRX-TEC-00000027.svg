@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">속박의 끝에서</title>
+  <desc id="desc">족쇄 고리가 열리는 모습</desc>
+  <metadata>ELRX-TEC-00000027 | 구원 | 중급 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-10 5) rotate(-28) scale(1.15 1.15)" stroke-width="2.33"><path d="M-20-12Q0-26 20-12V4Q0 19-20 4Z" fill="#FFD27A" fill-opacity=".20"/><path d="M-20-9Q0 5 20-10 M-3 12V21Q2 26 7 21L10 14"/></g>
+        <path d="M4 8 15-7 M20-17Q30-29 39-20Q44-12 34-4L29 0"/>
+    </g>
+    <g id="supporting-art">
+        <path d="M16-15 12-22 M22-9 29-10"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#FFD27A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FFD27A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+  </g>
+</svg>

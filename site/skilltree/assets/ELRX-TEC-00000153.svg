@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">사냥꾼의 감</title>
+  <desc id="desc">땅의 발자국과 그것을 읽는 눈</desc>
+  <metadata>ELRX-TEC-00000153 | 야성 | 기초 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-15 13) rotate(0) scale(0.9 0.9)" stroke-width="2.64"><path d="M-14 9Q-6-9 2-7Q9-7 16 8Q19 21 7 18Q0 15-7 19Q-18 22-14 9Z M-21-8Q-25-19-19-21Q-12-23-10-11Q-11-3-17-5Z M-6-17Q-9-29-2-29Q4-28 4-17Q2-9-3-11Z M10-16Q12-28 18-25Q23-22 18-12Q14-5 10-11Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+        <g transform="translate(11 -15) rotate(0) scale(0.85 0.85)" stroke-width="2.71"><path d="M-29 0Q-1-28 29 0Q1 25-29 0Z" fill="#8FCE6A" fill-opacity=".20"/><path d="M-7.3 0A7.3 7.3 0 1 0 7.3 0A7.3 7.3 0 1 0-7.3 0Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M-9 1 1-7" stroke-dasharray="3 4"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#8FCE6A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#8FCE6A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/></g>
+  </g>
+</svg>

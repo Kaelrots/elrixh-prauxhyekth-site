@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">연결 구획 집단경계형</title>
+  <desc id="desc">여러 사람을 감싼 큰 경계 돔과 돔 표면에서 되튀는 화살표 · 돔이 여러 구획으로 나뉘어 일부만 반사하는 모습</desc>
+  <metadata>ELRX-TVR-00000008 | 이퀄리브리엄 | 고등 | ELRX-TEC-00000054 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-2 8) rotate(0) scale(1.41 1.41)" stroke-width="2.11"><path d="M-31 15Q-27-19 0-21Q27-19 31 15Z" fill="#9FB4FF" fill-opacity=".20"/><path d="M-31 20H31"/></g>
+        <g transform="translate(-16 14) rotate(0) scale(0.38 0.38)" stroke-width="4.06"><path d="M-9-13A9 9 0 1 0 9-13A9 9 0 1 0-9-13Z" fill="#9FB4FF" fill-opacity=".20"/><path d="M-24 18Q-21 1-7 0Q0 7 7 0Q20 2 24 18Z" fill="#9FB4FF" fill-opacity=".20"/></g>
+        <g transform="translate(3 12) rotate(0) scale(0.43 0.43)" stroke-width="3.81"><path d="M-9-13A9 9 0 1 0 9-13A9 9 0 1 0-9-13Z" fill="#9FB4FF" fill-opacity=".20"/><path d="M-24 18Q-21 1-7 0Q0 7 7 0Q20 2 24 18Z" fill="#9FB4FF" fill-opacity=".20"/></g>
+        <g transform="translate(19 15) rotate(0) scale(0.35 0.35)" stroke-width="4.23"><path d="M-9-13A9 9 0 1 0 9-13A9 9 0 1 0-9-13Z" fill="#9FB4FF" fill-opacity=".20"/><path d="M-24 18Q-21 1-7 0Q0 7 7 0Q20 2 24 18Z" fill="#9FB4FF" fill-opacity=".20"/></g>
+        <path d="M-2-37 16-16 37-30"/>
+        <path d="M-7 -4.41L0 0L-7 4.41" transform="translate(37 -30) rotate(-37)"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#9FB4FF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#9FB4FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M128 49v5" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 49v5" transform="rotate(300 128 128) translate(0 0)"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M-22 15Q-21-3-8-19 M2 15Q5-3 2-20 M14 15Q16 4 12-11"/>
+        <path d="M-17 -9L-26 -20"/><path d="M-4.832307937207645 -3.0443540004408165L0 0L-4.832307937207645 3.0443540004408165" transform="translate(-26 -20) rotate(-129.28940686250039)"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

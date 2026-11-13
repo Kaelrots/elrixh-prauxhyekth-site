@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">상호 맹세형</title>
+  <desc id="desc">들어 올린 손 앞에 새겨진 맹세 문양 · 두 손 앞에 서로 마주 새겨진 맹세 문양 한 쌍</desc>
+  <metadata>ELRX-TVR-00000021 | 정의 | 중급 | ELRX-TEC-00000189 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-7 1) rotate(0) scale(1.2 1.2)" stroke-width="2.28"><path d="M-13 24-16 11-24-2Q-27-8-22-9Q-19-10-12-1L-14-18Q-15-25-10-25Q-6-25-5-17L-4-10-4-25Q-3-32 1-28Q3-27 3-22L4-11 5-23Q6-29 10-26Q12-25 11-19L11-9 14-17Q17-21 20-18Q21-16 18-9L17 8Q16 15 9 24Z" fill="#F2D16B" fill-opacity=".20"/><path d="M-9 6Q-1 3 4-2"/></g>
+        <g transform="translate(18 -6) rotate(0) scale(0.75 0.75)" stroke-width="2.89"><path d="M0-22 15-5 10 11 0 22-10 11-15-5Z" fill="#F2D16B" fill-opacity=".20"/><path d="M-6 0-1 6 8-7"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(99 125) scale(.89)" fill="none" stroke="#F2D16B" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#F2D16B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(18 4) rotate(0) scale(-0.61 0.61)" stroke-width="3.20"><path d="M-13 24-16 11-24-2Q-27-8-22-9Q-19-10-12-1L-14-18Q-15-25-10-25Q-6-25-5-17L-4-10-4-25Q-3-32 1-28Q3-27 3-22L4-11 5-23Q6-29 10-26Q12-25 11-19L11-9 14-17Q17-21 20-18Q21-16 18-9L17 8Q16 15 9 24Z" fill="#E9A7FF" fill-opacity=".20"/><path d="M-9 6Q-1 3 4-2"/></g>
+        <g transform="translate(5 -5) rotate(0) scale(0.45 0.45)" stroke-width="3.73"><path d="M0-22 15-5 10 11 0 22-10 11-15-5Z" fill="#E9A7FF" fill-opacity=".20"/><path d="M-6 0-1 6 8-7"/></g></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

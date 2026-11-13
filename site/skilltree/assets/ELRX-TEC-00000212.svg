@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">씻어내는 손</title>
+  <desc id="desc">물을 떠 담은 손바닥에서 씻겨 내리는 얼룩</desc>
+  <metadata>ELRX-TEC-00000212 | 자애 | 기초 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(0 0) rotate(0) scale(1.24 1.24)" stroke-width="2.25"><path d="M-29 8-20-1Q-17-4-12-2L-2 4 8 3Q13 2 12 0Q10-2 5-2L-1-3Q-5-7 0-9L11-8 18-4 24-9Q29-12 29-7Q27-2 21 4L10 13Q5 17-1 16L-13 13-21 18Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-14 5Q-8 11-2 11"/></g>
+        <g transform="translate(-6 -21) rotate(0) scale(0.46 0.46)" stroke-width="3.69"><path d="M0-29C-4-17-21 0-20 10C-19 34 18 34 20 10C21-1 5-17 0-29Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-12 10Q-11 17-5 18"/></g>
+        <g transform="translate(14 25) rotate(0) scale(0.48 0.48)" stroke-width="3.61"><path d="M-21-3Q-26-16-12-18Q-4-25 4-16Q14-20 19-10Q28-6 21 3Q26 12 13 14Q1 24-5 15Q-18 20-19 10Q-29 5-21-3Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-10 0-4-5 M4 6 10 0"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M5 9 10 19" stroke-dasharray="3 4"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#A8F0E6" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#A8F0E6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/></g>
+  </g>
+</svg>

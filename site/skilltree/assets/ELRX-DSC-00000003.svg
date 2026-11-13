@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">이퀄리브리엄</title>
+  <desc id="desc">평형을 이룬 천칭 팔이 원형 경계와 맞물린 모습</desc>
+  <metadata>ELRX-DSC-00000003 | 이퀄리브리엄 | 계열 문장 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(0 0) rotate(0) scale(1.36 1.36)" stroke-width="2.14"><path d="M0-24V23 M-11 24H11 M-23-11H23 M-20-10-29 7H-11Z M20-10 11 7H29Z"/><path d="M-29 7Q-20 20-11 7Z M11 7Q20 20 29 7Z" fill="#9FB4FF" fill-opacity=".20"/><path d="M0-29 4-24 0-20-4-24Z" fill="#9FB4FF"/></g>
+    </g>
+    <g id="supporting-art">
+        <circle cx="0" cy="0" r="37"/>
+        <path d="M-41-1H-30 M30-1H41"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#9FB4FF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#9FB4FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="7.3"/><path d="M96 32.4 124 16.2Q128 14 132 16.2L160 32.4 M96 223.6 124 239.8Q128 242 132 239.8L160 223.6" stroke-width="1.65" opacity=".54"/></g>
+  </g>
+</svg>

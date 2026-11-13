@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">관측수 협동형</title>
+  <desc id="desc">먼 표적 하나를 겨눈 긴 총신과 조준선 · 쌍안경과 사수를 잇는 정보선</desc>
+  <metadata>ELRX-TVR-00000017 | 사수 | 중급 | ELRX-TEC-00000146 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-12 9) rotate(-16) scale(0.87 0.87)" stroke-width="2.68"><path d="M-31 1-16-5H-3V-10H7V-6H32V-1H5L-2 5H-10L-14 14-23 13-21 5-31 10Z" fill="#7FD0C9" fill-opacity=".20"/><path d="M0-14H12 M5-14V-9"/></g>
+        <g transform="translate(28 -20) rotate(0) scale(0.54 0.54)" stroke-width="3.40"><path d="M-21 0A21 21 0 1 1 21 0A21 21 0 1 1-21 0Z M-29 0H-12 M12 0H29 M0-29V-12 M0 12V29"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M9-5 22-15" stroke-dasharray="3 4"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#7FD0C9" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#7FD0C9" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M-17-26-9-26-5-13-9-9-18-10-21-15Z M-6-27 2-29 9-18 7-12-3-12-6-18Z" fill="#E9A7FF" fill-opacity=".20"/>
+        <path d="M-8-21-3-22"/>
+        <path d="M-11-8-15 3" stroke-dasharray="3 4"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

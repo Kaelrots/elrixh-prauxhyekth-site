@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">일발필중</title>
+  <desc id="desc">표적 정중앙에 꽂힌 단 하나의 탄 궤적</desc>
+  <metadata>ELRX-TEC-00000149 | 사수 | 최고위 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(9 -5) rotate(0) scale(1.16 1.16)" stroke-width="2.32"><path d="M-21 0A21 21 0 1 1 21 0A21 21 0 1 1-21 0Z M-29 0H-12 M12 0H29 M0-29V-12 M0 12V29"/></g>
+        <g transform="translate(-9 8) rotate(-32) scale(0.69 0.69)" stroke-width="3.01"><path d="M-25-7H6Q21-5 28 0Q20 6 6 7H-25Z" fill="#7FD0C9" fill-opacity=".20"/><path d="M-17-7V7 M3-6V6"/></g>
+        <path d="M-40 24 10-5"/>
+        <circle cx="9" cy="-5" r="3.2" fill="#7FD0C9"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#7FD0C9" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#7FD0C9" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" stroke="#D9B66C"/><path d="M128 18v6" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(30 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(90 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(150 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(210 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(270 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(300 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(330 128 128) translate(0 15)"/></g>
+  </g>
+</svg>

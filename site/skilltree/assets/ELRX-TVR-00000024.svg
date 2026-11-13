@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">전이 정화형</title>
+  <desc id="desc">물을 떠 담은 손바닥에서 씻겨 내리는 얼룩 · 씻긴 얼룩이 시전자 손바닥 쪽으로 옮겨 가는 화살표</desc>
+  <metadata>ELRX-TVR-00000024 | 자애 | 기초 | ELRX-TEC-00000212 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(0 0) rotate(0) scale(1.24 1.24)" stroke-width="2.25"><path d="M-29 8-20-1Q-17-4-12-2L-2 4 8 3Q13 2 12 0Q10-2 5-2L-1-3Q-5-7 0-9L11-8 18-4 24-9Q29-12 29-7Q27-2 21 4L10 13Q5 17-1 16L-13 13-21 18Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-14 5Q-8 11-2 11"/></g>
+        <g transform="translate(-6 -21) rotate(0) scale(0.46 0.46)" stroke-width="3.69"><path d="M0-29C-4-17-21 0-20 10C-19 34 18 34 20 10C21-1 5-17 0-29Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-12 10Q-11 17-5 18"/></g>
+        <g transform="translate(14 25) rotate(0) scale(0.48 0.48)" stroke-width="3.61"><path d="M-21-3Q-26-16-12-18Q-4-25 4-16Q14-20 19-10Q28-6 21 3Q26 12 13 14Q1 24-5 15Q-18 20-19 10Q-29 5-21-3Z" fill="#A8F0E6" fill-opacity=".20"/><path d="M-10 0-4-5 M4 6 10 0"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M5 9 10 19" stroke-dasharray="3 4"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#A8F0E6" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#A8F0E6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M16 19Q34 9 13-4"/>
+        <path d="M-7 -4.41L0 0L-7 4.41" transform="translate(13 -4) rotate(-153)"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

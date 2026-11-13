@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">신성 발현</title>
+  <desc id="desc">펼친 손바닥 위로 솟는 압력의 동심원</desc>
+  <metadata>ELRX-TEC-00000064 | 신성 | 기초 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(0 16) rotate(0) scale(1.31 1.31)" stroke-width="2.18"><path d="M-29 8-20-1Q-17-4-12-2L-2 4 8 3Q13 2 12 0Q10-2 5-2L-1-3Q-5-7 0-9L11-8 18-4 24-9Q29-12 29-7Q27-2 21 4L10 13Q5 17-1 16L-13 13-21 18Z" fill="#FFE9A3" fill-opacity=".20"/><path d="M-14 5Q-8 11-2 11"/></g>
+        <ellipse cx="0" cy="-8" rx="27" ry="9" transform="rotate(0 0 -8)"/>
+        <ellipse cx="0" cy="-18" rx="18" ry="6" transform="rotate(0 0 -18)"/>
+        <ellipse cx="0" cy="-25" rx="8" ry="3" transform="rotate(0 0 -25)"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#FFE9A3" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FFE9A3" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/></g>
+  </g>
+</svg>

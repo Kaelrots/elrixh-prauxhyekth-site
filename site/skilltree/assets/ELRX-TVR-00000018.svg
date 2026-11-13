@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">감지망형</title>
+  <desc id="desc">소리 파문을 남기며 나는 화살 · 둘레에 꽂힌 울림 화살들이 만드는 원형 감지망</desc>
+  <metadata>ELRX-TVR-00000018 | 야성 | 기초 | ELRX-TEC-00000154 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(5 -2) rotate(-22) scale(1.23 1.23)" stroke-width="2.25"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+        <g transform="translate(-19 7) rotate(157) scale(0.82 0.82)" stroke-width="2.76"><path d="M-18-11Q-4 0-18 11 M-7-18Q14 0-7 18 M4-25Q33 0 4 25"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(126 122) scale(1.04)" fill="none" stroke="#8FCE6A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#8FCE6A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="0" cy="3" rx="33" ry="21" transform="rotate(0 0 3)"/>
+        <g transform="translate(-23 8) rotate(159) scale(0.38 0.38)" stroke-width="4.06"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#E9A7FF" fill-opacity=".20"/></g>
+        <g transform="translate(22 12) rotate(-155) scale(0.38 0.38)" stroke-width="4.06"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#E9A7FF" fill-opacity=".20"/></g>
+        <g transform="translate(16 -14) rotate(-145) scale(0.37 0.37)" stroke-width="4.11"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#E9A7FF" fill-opacity=".20"/></g></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

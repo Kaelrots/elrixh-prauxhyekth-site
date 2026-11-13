@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">환영검 · v2 육각형 시안</title>
+  <desc id="desc">위상 고리 안에서 청록색 마력검 세 자루가 하나의 큰 검 윤곽으로 모인 계열 문장.</desc>
+  <metadata>ELRX-DSC-00000001 | B01 | v2 | WORK candidate | visual approval pending</metadata>
+  <defs>
+    <filter id="bloom" x="-24%" y="-24%" width="148%" height="148%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.9"/>
+    </filter>
+    <g id="mana-blade" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M 0,-79 7.4,-58.8 6.1,27.2 0,32.8 -6.1,27.2 -7.4,-58.8 Z"
+            fill="#62E4FF" fill-opacity=".18" stroke="#62E4FF" stroke-width="3.6"/>
+      <path d="M 0,-70.3 0,24.7" fill="none" stroke="#62E4FF" stroke-width="1.8" opacity=".76"/>
+      <path d="M -17.8,25.6 -9,30.2 0,37.7 9,30.2 17.8,25.6 14.1,33.9 4.3,38.5 3,52.3 0,57.8 -3,52.3 -4.3,38.5 -14.1,33.9 Z"
+            fill="#62E4FF" fill-opacity=".22" stroke="#62E4FF" stroke-width="3.4"/>
+    </g>
+    <g id="blade-cluster">
+      <use xlink:href="#mana-blade" transform="translate(103 142) rotate(-8) scale(.66 .68)"/>
+      <use xlink:href="#mana-blade" transform="translate(153 142) rotate(8) scale(.66 .68)"/>
+      <use xlink:href="#mana-blade" transform="translate(128 131) scale(1.02 1.13)"/>
+    </g>
+    <g id="phase-arcs" fill="none" stroke="#62E4FF" stroke-linecap="round">
+      <path d="M 94,72.9 A 65.3,65.3 0 0 0 66.2,150.8 M 70.2,159.4 A 65.3,65.3 0 0 0 99.2,188.2
+               M 162,72.9 A 65.3,65.3 0 0 1 189.8,150.8 M 185.8,159.4 A 65.3,65.3 0 0 1 156.8,188.2" stroke-width="2.7"/>
+    </g>
+    <clipPath id="node-shape-mask"><path d="M 124,6.4 Q 128,4 132,6.4 L 229,62.4 Q 233,64.7 233,69.4 L 233,186.6 Q 233,191.3 229,193.6 L 132,249.6 Q 128,252 124,249.6 L 27,193.6 Q 23,191.3 23,186.6 L 23,69.4 Q 23,64.7 27,62.4 Z"/></clipPath>
+  </defs>
+
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M 124,6.4 Q 128,4 132,6.4 L 229,62.4 Q 233,64.7 233,69.4 L 233,186.6 Q 233,191.3 229,193.6 L 132,249.6 Q 128,252 124,249.6 L 27,193.6 Q 23,191.3 23,186.6 L 23,69.4 Q 23,64.7 27,62.4 Z" fill="#0A1422"/></g>
+    <g id="glow-soft" filter="url(#bloom)" opacity=".52">
+      <use xlink:href="#phase-arcs" opacity=".55"/>
+      <use xlink:href="#blade-cluster"/>
+    </g>
+    <g id="glyph-secondary" opacity=".63"><use xlink:href="#phase-arcs"/></g>
+    <g id="glyph-main"><use xlink:href="#blade-cluster"/></g>
+    <g id="tier-frame" fill="none" stroke="#62E4FF" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 124,6.4 Q 128,4 132,6.4 L 229,62.4 Q 233,64.7 233,69.4 L 233,186.6 Q 233,191.3 229,193.6 L 132,249.6 Q 128,252 124,249.6 L 27,193.6 Q 23,191.3 23,186.6 L 23,69.4 Q 23,64.7 27,62.4 Z" stroke-width="7.2"/>
+      <path d="M 96,32.4 124,16.2 Q 128,14 132,16.2 L 160,32.4 M 96,223.6 124,239.8 Q 128,242 132,239.8 L 160,223.6" stroke-width="1.65" opacity=".54"/>
+    </g>
+  </g>
+</svg>

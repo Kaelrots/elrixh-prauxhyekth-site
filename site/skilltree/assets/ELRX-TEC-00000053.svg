@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">제로섬</title>
+  <desc id="desc">양쪽에서 들어온 두 흐름이 하나로 합쳐져 사그라드는 모습</desc>
+  <metadata>ELRX-TEC-00000053 | 이퀄리브리엄 | 고등 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <path d="M-39-25C-20-25-15-2-2 0Q12 4 20 2 M-39 25C-20 25-15 2-2 0"/>
+    </g>
+    <g id="supporting-art">
+        <path d="M23 2H40" stroke-dasharray="3 4"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#9FB4FF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#9FB4FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M128 18v6" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(300 128 128) translate(0 0)"/></g>
+  </g>
+</svg>

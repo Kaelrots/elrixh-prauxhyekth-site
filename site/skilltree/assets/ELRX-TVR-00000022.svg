@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">지연 성탄형</title>
+  <desc id="desc">별이 담긴 탄환이 약실에 장전되는 모습 · 박힌 성탄과 그 위의 대기 표시</desc>
+  <metadata>ELRX-TVR-00000022 | 유성 | 중급 | ELRX-TEC-00000199 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(19 4) rotate(0) scale(0.8 0.8)" stroke-width="2.80"><path d="M-30-6H12L16-10H26V9H16L12 5H-30Z" fill="#C9D8FF" fill-opacity=".20"/><path d="M-20-6V5 M-14-6V5"/></g>
+        <g transform="translate(-15 4) rotate(0) scale(0.74 0.74)" stroke-width="2.91"><path d="M-23-9H1L11-7Q22-5 29 0Q21 6 12 7L5 10H-23Z" fill="#C9D8FF" fill-opacity=".20"/><path d="M5-9V9"/></g>
+        <g transform="translate(-17 2) rotate(0) scale(0.34 0.34)" stroke-width="4.29"><path d="M0-26 6-7 23 0 6 6 0 26-6 6-23 0-6-7Z" fill="#C9D8FF" fill-opacity=".20"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M-29 -17L-9 -17"/><path d="M-6.800000000000001 -4.284000000000001L0 0L-6.800000000000001 4.284000000000001" transform="translate(-9 -17) rotate(0)"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(124 137) scale(1.30)" fill="none" stroke="#C9D8FF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#C9D8FF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(9 -20) rotate(0) scale(0.42 0.42)" stroke-width="3.86"><path d="M-19-24H19 M-19 24H19"/><path d="M-15-21Q-15-9-4-2Q-1 0-4 3Q-16 12-15 21H15Q16 12 4 3Q1 0 4-2Q15-10 15-21Z" fill="#E9A7FF" fill-opacity=".20"/><path d="M-8-13H8 M-7 15 0 10 7 15"/></g>
+        <circle cx="9" cy="-4" r="1.9" fill="#E9A7FF"/></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

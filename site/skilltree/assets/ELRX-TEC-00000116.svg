@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">복수의 서약</title>
+  <desc id="desc">주먹 쥔 손과 그 위에 새겨진 서약 표식</desc>
+  <metadata>ELRX-TEC-00000116 | 증오 | 고등 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-3 4) rotate(0) scale(1.26 1.26)" stroke-width="2.23"><path d="M-17 23-17 13Q-28 0-23-8Q-21-14-15-13Q-17-22-10-23Q-7-23-5-20Q-2-28 5-24Q8-23 8-19Q15-24 19-17L23-4Q25 5 16 12L11 23Z" fill="#FF5D6C" fill-opacity=".20"/><path d="M-15-12-10-5 M-5-19 0-10 M8-18 12-11 M-18 1Q-8-9 2-5Q7-1 0 3L-7 7"/></g>
+        <g transform="translate(4 0) rotate(0) scale(0.48 0.48)" stroke-width="3.61"><path d="M0-22 15-5 10 11 0 22-10 11-15-5Z" fill="#FF5D6C" fill-opacity=".20"/><path d="M-6 0-1 6 8-7"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#FF5D6C" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FF5D6C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M128 18v6" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(300 128 128) translate(0 0)"/></g>
+  </g>
+</svg>

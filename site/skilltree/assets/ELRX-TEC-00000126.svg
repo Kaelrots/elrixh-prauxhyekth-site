@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">병장기술 계통</title>
+  <desc id="desc">검·창·도끼 윤곽이 하나의 고리로 묶인 모습</desc>
+  <metadata>ELRX-TEC-00000126 | 격투 | 중급 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-17 1) rotate(-26) scale(0.96 0.96)" stroke-width="2.55"><path d="M0-34 5-22 4 8 0 13-4 8-5-22Z" fill="#D9B66C" fill-opacity=".20"/><path d="M0-25V7 M-12 7-7 11 0 14 7 11 12 7"/><path d="M-2.8 15V23L0 28 2.8 23V15" fill="#D9B66C" fill-opacity=".20"/></g>
+        <g transform="translate(0 -7) rotate(0) scale(1.06 1.06)" stroke-width="2.43"><path d="M0 31V-10"/><path d="M0-32 7-12 0-6-7-12Z" fill="#D9B66C" fill-opacity=".20"/><path d="M-3 1H3"/></g>
+        <g transform="translate(17 1) rotate(26) scale(0.96 0.96)" stroke-width="2.55"><path d="M-4 28 2-27"/><path d="M1-18Q12-21 18-27Q25-12 18 3Q13-5 0-6Z" fill="#D9B66C" fill-opacity=".20"/><path d="M-4 20 0 21"/></g>
+    </g>
+    <g id="supporting-art">
+        <ellipse cx="0" cy="20" rx="32" ry="11" transform="rotate(0 0 20)"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#D9B66C" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#D9B66C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+  </g>
+</svg>

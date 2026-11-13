@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">쌍수 막기</title>
+  <desc id="desc">교차한 두 칼날이 공격을 받아 흘리는 모습</desc>
+  <metadata>ELRX-TEC-00000239 | 암투 | 기초 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-2 1) rotate(-45) scale(1.18 1.18)" stroke-width="2.30"><path d="M1-26Q14-10 6 5L0 9-4 6Q-5-8 1-26Z" fill="#7A86A8" fill-opacity=".20"/><path d="M-10 5Q0 13 9 6 M0 11-3 23-1 26 2 24 5 12"/></g>
+        <g transform="translate(2 1) rotate(45) scale(1.18 1.18)" stroke-width="2.30"><path d="M1-26Q14-10 6 5L0 9-4 6Q-5-8 1-26Z" fill="#7A86A8" fill-opacity=".20"/><path d="M-10 5Q0 13 9 6 M0 11-3 23-1 26 2 24 5 12"/></g>
+        <path d="M-3-36-2-9 26-23"/>
+        <path d="M-6 -3.7800000000000002L0 0L-6 3.7800000000000002" transform="translate(26 -23) rotate(-26)"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#7A86A8" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#7A86A8" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/></g>
+  </g>
+</svg>

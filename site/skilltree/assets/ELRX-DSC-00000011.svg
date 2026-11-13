@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">광기</title>
+  <desc id="desc">금 간 가면과 그 틈에서 새어 나오는 소용돌이</desc>
+  <metadata>ELRX-DSC-00000011 | 광기 | 계열 문장 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-5 1) rotate(0) scale(1.22 1.22)" stroke-width="2.26"><path d="M-23-23Q0-12 23-23L22-2Q19 14 0 27Q-20 14-22-2Z" fill="#C86BFF" fill-opacity=".20"/><path d="M-16-6-7-3 M7-3 16-6 M-6 12Q0 8 6 12"/></g>
+        <path d="M-2-21 4-11-3-2 4 9-1 25"/>
+        <g transform="translate(18 -13) rotate(0) scale(0.58 0.58)" stroke-width="3.28"><path d="M-26 0C-28-25 6-34 22-14C39 8 12 30-8 20C-24 12-20-6-9-11C3-18 15-9 13 0C10 12-4 11-6 3Q-7-1-2-2"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#C86BFF" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#C86BFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="7.3"/><path d="M96 32.4 124 16.2Q128 14 132 16.2L160 32.4 M96 223.6 124 239.8Q128 242 132 239.8L160 223.6" stroke-width="1.65" opacity=".54"/></g>
+  </g>
+</svg>

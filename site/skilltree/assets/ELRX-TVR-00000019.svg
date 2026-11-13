@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">연쇄 수호형</title>
+  <desc id="desc">아군 앞에 나서 화살을 대신 받는 인물 윤곽 · 대신 받은 화살이 두 번째 수호자에게 넘어가는 모습</desc>
+  <metadata>ELRX-TVR-00000019 | 의지 | 기초 | ELRX-TEC-00000165 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-6 4) rotate(0) scale(1.04 1.04)" stroke-width="2.45"><path d="M-9-21A9 9 0 1 0 9-21A9 9 0 1 0-9-21Z" fill="#FF9F5A" fill-opacity=".20"/><path d="M-18 4Q-15-9-7-8L0-5 7-8Q16-8 19 4 M-9 0-8 12-12 28 M9 0 8 12 12 28 M-8 12H8"/></g>
+        <g transform="translate(23 12) rotate(0) scale(0.65 0.65)" stroke-width="3.10"><path d="M-9-13A9 9 0 1 0 9-13A9 9 0 1 0-9-13Z" fill="#FF9F5A" fill-opacity=".20"/><path d="M-24 18Q-21 1-7 0Q0 7 7 0Q20 2 24 18Z" fill="#FF9F5A" fill-opacity=".20"/></g>
+        <path d="M-40 -9L-21 -5"/><path d="M-6.601605865242184 -4.159011695102576L0 0L-6.601605865242184 4.159011695102576" transform="translate(-21 -5) rotate(11.888658039627973)"/>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" fill="#0A1422"/></g>
+    <g transform="translate(125 119) scale(1.40)" fill="none" stroke="#FF9F5A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FF9F5A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M125 7Q128 3.4 131 7L246 124.7Q249 128 246 131.3L131 249Q128 252.6 125 249L10 131.3Q7 128 10 124.7Z" stroke="#E9A7FF" stroke-width="5.4"/></g>
+    <g id="variant-marker" transform="translate(128 128) scale(1.53)" fill="none" stroke="#E9A7FF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M4 -7L20 -16"/><path d="M-6.241570315233179 -3.932189298596903L0 0L-6.241570315233179 3.932189298596903" transform="translate(20 -16) rotate(-29.357753542791272)"/>
+        <g transform="translate(27 -17) rotate(0) scale(0.46 0.46)" stroke-width="3.69"><path d="M-9-13A9 9 0 1 0 9-13A9 9 0 1 0-9-13Z" fill="#E9A7FF" fill-opacity=".20"/><path d="M-24 18Q-21 1-7 0Q0 7 7 0Q20 2 24 18Z" fill="#E9A7FF" fill-opacity=".20"/></g></g>
+    <path id="variant-diamond" d="M181 171l6 7-6 7-6-7Z" fill="#E9A7FF" stroke="#0A1422" stroke-width="2"/>
+  </g>
+</svg>

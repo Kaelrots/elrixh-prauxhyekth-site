@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">증오의 사슬</title>
+  <desc id="desc">가시 돋친 사슬로 묶인 손목</desc>
+  <metadata>ELRX-TEC-00000114 | 증오 | 중급 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(1 0) rotate(0) scale(1.14 1.14)" stroke-width="2.34"><path d="M-27 15-8 8 3-14 0-23 6-27 16-23 21-16 16-5 9 4 1 20-22 26Z" fill="#FF5D6C" fill-opacity=".20"/></g>
+        <g transform="translate(-5 5) rotate(80) scale(0.72 0.72)" stroke-width="2.95"><path d="M-4-22Q1-29 10-24Q15-21 12-13L3 3Q-2 9-9 6Q-15 1-10-8Z" fill="#FF5D6C" fill-opacity=".20"/><path d="M-2-6Q-9-9-13-1L-22 14Q-26 21-20 25Q-13 30-8 22L0 10"/></g>
+        <g transform="translate(13 4) rotate(65) scale(0.32 0.32)" stroke-width="4.42"><path d="M-4 24-7 5-13 9-7-2 8-25 4-6 11-10 1 8Z" fill="#FF5D6C" fill-opacity=".20"/></g>
+        <g transform="translate(-17 10) rotate(-90) scale(0.33 0.33)" stroke-width="4.35"><path d="M-4 24-7 5-13 9-7-2 8-25 4-6 11-10 1 8Z" fill="#FF5D6C" fill-opacity=".20"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#FF5D6C" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FF5D6C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" opacity=".75"/></g>
+  </g>
+</svg>

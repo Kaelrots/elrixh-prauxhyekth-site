@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">모든 사슬이 풀리는 날</title>
+  <desc id="desc">여러 사슬이 동시에 끊어져 바깥으로 흩어지는 원</desc>
+  <metadata>ELRX-TEC-00000039 | 구원 | 최고위 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-20 -19) rotate(-32) scale(0.65 0.65)" stroke-width="3.10"><path d="M-4-22Q1-29 10-24Q15-21 12-13L3 3Q-2 9-9 6Q-15 1-10-8Z" fill="#FFD27A" fill-opacity=".20"/><path d="M-2-6Q-9-9-13-1L-22 14Q-26 21-20 25Q-13 30-8 22L0 10"/></g>
+        <g transform="translate(22 -16) rotate(54) scale(0.64 0.64)" stroke-width="3.13"><path d="M-4-22Q1-29 10-24Q15-21 12-13L3 3Q-2 9-9 6Q-15 1-10-8Z" fill="#FFD27A" fill-opacity=".20"/><path d="M-2-6Q-9-9-13-1L-22 14Q-26 21-20 25Q-13 30-8 22L0 10"/></g>
+        <g transform="translate(17 23) rotate(-33) scale(0.63 0.63)" stroke-width="3.15"><path d="M-4-22Q1-29 10-24Q15-21 12-13L3 3Q-2 9-9 6Q-15 1-10-8Z" fill="#FFD27A" fill-opacity=".20"/><path d="M-2-6Q-9-9-13-1L-22 14Q-26 21-20 25Q-13 30-8 22L0 10"/></g>
+        <g transform="translate(-22 19) rotate(55) scale(0.64 0.64)" stroke-width="3.13"><path d="M-4-22Q1-29 10-24Q15-21 12-13L3 3Q-2 9-9 6Q-15 1-10-8Z" fill="#FFD27A" fill-opacity=".20"/><path d="M-2-6Q-9-9-13-1L-22 14Q-26 21-20 25Q-13 30-8 22L0 10"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M-8-29-4-38 M26-1 37-4 M2 23 4 34 M-33 4-43 9"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#FFD27A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#FFD27A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" transform="translate(128 128) scale(.936) translate(-128 -128)" stroke-width="1.65" stroke="#D9B66C"/><path d="M128 18v6" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(30 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(90 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(150 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(210 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(270 128 128) translate(0 15)"/><path d="M128 18v6" transform="rotate(300 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(330 128 128) translate(0 15)"/></g>
+  </g>
+</svg>

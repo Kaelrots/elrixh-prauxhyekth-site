@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">거수 사냥</title>
+  <desc id="desc">두꺼운 비늘 가죽을 꿰뚫는 화살</desc>
+  <metadata>ELRX-TEC-00000162 | 야성 | 고등 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(3 9) rotate(0) scale(1.13 1.13)" stroke-width="2.35"><path d="M-26-12Q-18 1-9-12Q0 1 9-12Q18 1 26-12 M-29 2Q-21 15-11 2Q-2 15 7 2Q17 15 27 2 M-20 15Q-11 28-3 15Q6 28 16 15"/></g>
+        <g transform="translate(-4 -3) rotate(39) scale(1.28 1.28)" stroke-width="2.21"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+    </g>
+    <g id="supporting-art">
+        <path d="M18 21 24 32 M24 15 34 19"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#8FCE6A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#8FCE6A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/><path d="M128 18v6" transform="rotate(0 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(60 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(120 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(180 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(240 128 128) translate(0 0)"/><path d="M128 18v6" transform="rotate(300 128 128) translate(0 0)"/></g>
+  </g>
+</svg>

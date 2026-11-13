@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">야성</title>
+  <desc id="desc">당겨진 활과 그 위를 나는 화살, 짐승 발자국</desc>
+  <metadata>ELRX-DSC-00000013 | 야성 | 계열 문장 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-5 -4) rotate(-27) scale(1.22 1.22)" stroke-width="2.26"><path d="M-17-26Q24 0-17 26L-5 0Z M-8 0H30 M22-5 31 0 22 5"/></g>
+        <g transform="translate(13 20) rotate(0) scale(0.51 0.51)" stroke-width="3.50"><path d="M-14 9Q-6-9 2-7Q9-7 16 8Q19 21 7 18Q0 15-7 19Q-18 22-14 9Z M-21-8Q-25-19-19-21Q-12-23-10-11Q-11-3-17-5Z M-6-17Q-9-29-2-29Q4-28 4-17Q2-9-3-11Z M10-16Q12-28 18-25Q23-22 18-12Q14-5 10-11Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+        <g transform="translate(6 -9) rotate(-26) scale(0.92 0.92)" stroke-width="2.61"><path d="M-30 0H22 M-25-1-32-7 M-25 1-32 7"/><path d="M16-6 31 0 16 6 20 0Z" fill="#8FCE6A" fill-opacity=".20"/></g>
+    </g>
+    <g id="supporting-art">
+
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#8FCE6A" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#8FCE6A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="7.3"/><path d="M96 32.4 124 16.2Q128 14 132 16.2L160 32.4 M96 223.6 124 239.8Q128 242 132 239.8L160 223.6" stroke-width="1.65" opacity=".54"/></g>
+  </g>
+</svg>

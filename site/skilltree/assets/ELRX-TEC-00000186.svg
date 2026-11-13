@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">책임 추궁</title>
+  <desc id="desc">행위 표시와 결과 표시를 잇는 화살표 줄</desc>
+  <metadata>ELRX-TEC-00000186 | 정의 | 기초 | WORK v2</metadata>
+  <defs>
+    <clipPath id="node-shape-mask"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z"/></clipPath>
+    <filter id="bloom" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.45"/></filter>
+    <g id="main-art">
+        <g transform="translate(-21 -12) rotate(0) scale(0.61 0.61)" stroke-width="3.20"><path d="M-17 23-17 13Q-28 0-23-8Q-21-14-15-13Q-17-22-10-23Q-7-23-5-20Q-2-28 5-24Q8-23 8-19Q15-24 19-17L23-4Q25 5 16 12L11 23Z" fill="#F2D16B" fill-opacity=".20"/><path d="M-15-12-10-5 M-5-19 0-10 M8-18 12-11 M-18 1Q-8-9 2-5Q7-1 0 3L-7 7"/></g>
+        <g transform="translate(23 12) rotate(0) scale(0.64 0.64)" stroke-width="3.13"><path d="M0-24 5-8 19-16 13-3 26 1 11 6 16 20 3 12-4 26-9 10-23 14-16 1-27-5-11-8-13-21-3-13Z" fill="#F2D16B" fill-opacity=".20"/></g>
+        <path d="M-8 -5L9 5"/><path d="M-6.705848193927446 -4.224684362174291L0 0L-6.705848193927446 4.224684362174291" transform="translate(9 5) rotate(30.465544919459884)"/>
+    </g>
+    <g id="supporting-art">
+        <path d="M-29 10Q-20 25 7 24"/>
+    </g>
+  </defs>
+  <g transform="scale(8)" clip-path="url(#node-shape-mask)">
+    <g id="panel-background"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" fill="#0A1422"/></g>
+    <g transform="translate(128 128) scale(1.65)" fill="none" stroke="#F2D16B" stroke-width="2.65" stroke-linejoin="round" stroke-linecap="round">
+      <g id="glow-soft" filter="url(#bloom)" opacity=".32"><use xlink:href="#main-art"/></g>
+      <g id="glyph-secondary" opacity=".71"><use xlink:href="#supporting-art"/></g>
+      <g id="glyph-main"><use xlink:href="#main-art"/></g>
+    </g>
+    <g id="tier-frame" fill="none" stroke="#F2D16B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M124 6.4Q128 4 132 6.4L229 62.4Q233 64.7 233 69.4V186.6Q233 191.3 229 193.6L132 249.6Q128 252 124 249.6L27 193.6Q23 191.3 23 186.6V69.4Q23 64.7 27 62.4Z" stroke-width="4.4"/></g>
+  </g>
+</svg>
