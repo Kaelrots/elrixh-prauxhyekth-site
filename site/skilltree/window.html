@@ -78,6 +78,9 @@ p{margin:0;font-size:13.5px;line-height:1.6;color:#bcd3e0}
 .tags {clear:both}
 .node:focus-visible {outline:2px solid #fff;outline-offset:3px}
 .rel button {color:inherit;background:none;border:0;border-bottom:1px dotted currentColor;cursor:pointer;font:inherit}
+#missing-card {max-width:36rem;max-height:100%;overflow:auto;margin:auto;padding:clamp(1rem,5vw,3rem);overflow-wrap:anywhere}
+#missing-card code {color:var(--gold)}
+#missing-card a {color:var(--holo)}
 #narrow-controls {display:none}
 #tree {pointer-events:none}
 #tree .node {pointer-events:auto}
@@ -100,6 +103,11 @@ p{margin:0;font-size:13.5px;line-height:1.6;color:#bcd3e0}
 </style>
 </head>
 <body>
+<section id="missing-card" aria-labelledby="missing-title" hidden>
+  <h1 id="missing-title" tabindex="-1">카드를 찾을 수 없음</h1>
+  <p>요청한 UID <code id="missing-uid"></code>에 해당하는 카드가 없습니다.</p>
+  <a id="browse-disciplines" href="?">계열 목록으로</a>
+</section>
 <div id="stage"><div id="win">
   <svg id="bg" viewBox="0 0 1600 1000"></svg>
   <header>
@@ -119,7 +127,7 @@ const CX=800,CY=540,NS='http://www.w3.org/2000/svg';
 const PAL=['#5fd2ff','#8f9dff','#c18cff','#5fe0a8','#ffb46b'];
 const STATUS={'3-B 승계':'#5fd2ff','구판 명칭':'#d9b66c','원소마법으로 이관':'#c18cff','마도공학 이관 후보':'#c18cff','분기 · 기법명 미정':'#7f9bb0'};
 const BC={'원자료 기반':'#f2c86b','신규 설계':'#6fe8ff','기존 정의(3-B)':'#c9d6e8','Variant 설계 방향':'#e9a7ff','3-B 승계':'#c9d6e8','구판 재채택':'#f2c86b','신규(확장안)':'#6fe8ff','21기법 확장':'#9cf0b4'};
-const TY={RECOMMENDED_LEARNING:['권장 학습','#e9c77a'],COMBO:['운용 연계','#47e0ae'],CONCEPTUAL_DERIVATION:['개념 발전','#ff9f6b'],VARIANT_OF:['변형 부모','#e9a7ff'],MEMBER:['계열 소속','#d9b66c'],CROSS:['계열 간','#7fb2ff']};
+const TY={RECOMMENDED_LEARNING:['권장 학습','#e9c77a'],COMBO:['운용 연계','#47e0ae'],CONCEPTUAL_DERIVATION:['개념 발전','#ff9f6b'],VARIANT_OF:['기법·변형 관계','#e9a7ff'],MEMBER:['계열 소속','#d9b66c'],CROSS:['계열 간','#7fb2ff']};
 const show={RECOMMENDED_LEARNING:true,COMBO:false,CONCEPTUAL_DERIVATION:false,VARIANT_OF:true,MEMBER:true};
 
 let D,by,GC,sel;
@@ -264,14 +272,21 @@ function drawRight(){
   <div class="k">계열 습득</div><p>${esc(D.acquire)}</p>`;
   return;
  }
- const rel=D.edges.filter(e=>(e.a===sel||e.b===sel)&&e.t!=='MEMBER').map(e=>{const o=by[e.a===sel?e.b:e.a],[t,cc]=TY[e.t];return `<div class="rel"><i style="color:${cc}">${t}</i>${e.a===sel?'→':'←'} <button type="button" data-node="${o.id}">${esc(o.name)}</button></div>`}).join('');
+ const rel=D.edges.filter(e=>(e.a===sel||e.b===sel)&&e.t!=='MEMBER').map(e=>{
+  const outgoing=e.a===sel, other=by[outgoing?e.b:e.a];
+  const [type,color]=TY[e.t];
+  const variant=e.t==='VARIANT_OF';
+  const label=variant?(outgoing?'부모 기법':'파생 변형'):type;
+  return `<div class="rel"><i style="color:${color}">${label}</i>${variant||outgoing?'→':'←'} <button type="button" data-node="${other.id}">${esc(other.name)}</button></div>`;
+ }).join('');
  const xr=(D.cross||[]).filter(x=>x.a===sel).map(x=>`<div class="rel"><i style="color:${TY.CROSS[1]}">계열 간 · ${esc(x.label)}</i>${x.dir==='out'?'→':'←'} <button type="button" data-cross="${x.id}">${esc(x.other)} · ${esc(x.oname)}</button></div>`).join('');
  const gen=D.mode==='general';
  document.getElementById('right').innerHTML=`
  <div class="code">${n.code==='V'?'VARIANT':(gen?D.name+' '+n.code:n.code)} · ${esc(n.group)}</div>
  <h2 style="color:${c};text-shadow:0 0 14px ${c}88">${esc(n.name)}</h2>
- <div class="tags">${BC[n.basis]?`<span class="tag" style="color:${BC[n.basis]};border-color:${BC[n.basis]}">${esc(n.basis)}</span>`:`<span class="tag" style="color:${c};border-color:${c}">${esc(n.group)}</span>`}${n.id===D.nodes[0].id&&!n.core?'<span class="tag" style="color:var(--gold);border-color:var(--gold)">핵심 기법</span>':''}${n.tier?`<span class="tag" style="color:#bcd3e0;border-color:#2b5571">${n.tier} · ${n.op}</span>`:''}</div>
+ <div class="tags">${n.code==='V'?'':BC[n.basis]?`<span class="tag" style="color:${BC[n.basis]};border-color:${BC[n.basis]}">${esc(n.basis)}</span>`:`<span class="tag" style="color:${c};border-color:${c}">${esc(n.group)}</span>`}${n.id===D.nodes[0].id&&!n.core?'<span class="tag" style="color:var(--gold);border-color:var(--gold)">핵심 기법</span>':''}${n.tier?`<span class="tag" style="color:#bcd3e0;border-color:#2b5571">${n.tier} · ${n.op}</span>`:''}</div>
  <div class="k">${gen?'설명':'효과 범위'}</div><p>${esc(n.effect)}</p>
+ ${n.code==='V'&&n.basis?`<div class="k">설계 근거</div><p>${esc(n.basis)}</p>`:''}
  ${n.b3?`<div class="k">3-B 근거</div><p>${esc(n.b3)}</p>`:''}
  ${gen&&!n.b3&&n.ring!==3?`<div class="k">근거</div><p>2026-11-08 채택된 확장안의 신규 기법. 3-B 원문 서술은 없다.</p>`:''}
  ${n.legacy?`<div class="k">구판 원형</div><p style="color:var(--dim)">${esc(n.legacy)}</p>`:''}
@@ -319,6 +334,9 @@ function saveLocation(remember=true){
   if(remember)h.pushState(h.state,'',url);
   else h.replaceState(h.state,'',url);
  }
+ notifyHost(uid);
+}
+function notifyHost(uid){
  if(hostFrame){
   hostFrame.dataset.uid=uid;
   hostFrame.dispatchEvent(new Event('skilltree-selection',{bubbles:true}));
@@ -339,6 +357,8 @@ function render(){
  document.getElementById('node-picker').value=sel;
 }
 function open_(name,id,remember=true){
+ document.getElementById('missing-card').hidden=true;
+ document.getElementById('stage').hidden=false;
  load(name);sel=Object.hasOwn(by,id)?id:D.sel;
  const picker=document.getElementById('discipline-picker');picker.value=D.name;
  document.getElementById('node-picker').replaceChildren(...D.nodes.map(n=>new Option(n.name,n.id)));
@@ -356,9 +376,30 @@ picker.replaceChildren(...ALL.map(d=>new Option(d.name,d.name)));picker.onchange
 document.getElementById('node-picker').onchange=e=>selectNode(e.target.value);
 function restore(){
  const query=new URLSearchParams(addressWindow.location.search);
- const card=cardsByUid.get(query.get('uid'));
+ const uid=query.get('uid');
+ const card=cardsByUid.get(uid);
+ if(uid!==null&&!card){
+  document.getElementById('stage').hidden=true;
+  document.getElementById('missing-uid').textContent=uid||'(빈 값)';
+  document.getElementById('missing-card').hidden=false;
+  document.getElementById('missing-title').focus();
+  notifyHost('');
+  return;
+ }
  open_(card?.name ?? query.get('d'),card?.id ?? query.get('sel'),false);
 }
+const browse=document.getElementById('browse-disciplines');
+const listUrl=new URL(addressWindow.location.href);
+for(const key of ['uid','d','sel'])listUrl.searchParams.delete(key);
+browse.href=listUrl.href;
+if(hostFrame)browse.target='_parent';
+browse.onclick=event=>{
+ if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+ event.preventDefault();
+ open_(ALL[0].name);
+ const control=matchMedia('(max-width:1100px)').matches?picker:document.querySelector('#tabs [data-d]');
+ control.focus();
+};
 addEventListener('skilltree-restore',restore);
 addEventListener('skilltree-discipline',event=>open_(event.detail));
 addEventListener('popstate',restore);addEventListener('resize',fit);fit();restore();

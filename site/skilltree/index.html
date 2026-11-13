@@ -48,11 +48,11 @@
         const status = section.querySelector('[role=status]');
         const manual = section.querySelector('input[readonly]');
         function syncSelection() {
-          if (!frame.dataset.uid) return;
           const url = new URL(frame.src);
-          url.searchParams.set('uid', frame.dataset.uid);
+          if (frame.dataset.uid) url.searchParams.set('uid', frame.dataset.uid);
+          else url.search = location.search;
           openCard.href = url.href;
-          copy.disabled = false;
+          copy.disabled = !frame.dataset.uid;
           status.textContent = '';
           manual.hidden = true;
         }
@@ -63,7 +63,7 @@
         window.addEventListener('popstate', () => frame.contentWindow?.dispatchEvent(new Event('skilltree-restore')), {signal:lifetime.signal});
         section.querySelector('.skilltree-disciplines').addEventListener('click', event => {
           const link = event.target.closest('a[data-discipline]');
-          if (!link || !frame.dataset.uid || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          if (!link || frame.dataset.uid === undefined || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
           event.preventDefault();
           frame.contentWindow.dispatchEvent(new CustomEvent('skilltree-discipline', {detail:link.dataset.discipline}));
         });
